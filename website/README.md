@@ -1,3 +1,49 @@
+# Assignment Solution
+
+### Five significant features of React
+
+- Declarative: React uses a declarative programming approach, which means that developers only need to describe what they want the UI to look like, and React takes care of the underlying updates and optimizations. This makes it easier to reason about and maintain code, as well as improve performance.
+
+- Component-Based Architecture: React has a component-based architecture, which allows developers to break down the UI into reusable and self-contained components. Each component manages its own state and can be composed together to create complex user interfaces.
+
+- Virtual DOM: React uses a virtual DOM, which is an in-memory representation of the actual DOM. This allows React to make efficient updates to the UI by only updating the parts of the DOM that have changed, rather than re-rendering the entire UI.
+
+- JSX: React uses JSX, which is a syntax extension that allows developers to write HTML-like code within their JavaScript code. This makes it easier to create and manage complex user interfaces, and helps to improve the readability and maintainability of code.
+
+- One-Way Data Binding: React uses one-way data binding, which means that data flows in one direction—from parent components to child components. This helps to prevent unexpected side effects and makes it easier to reason about the flow of data within the application.
+
+### Five major advantages of React
+
+- Increased productivity and efficiency: React's component-based architecture, one-way data binding, and virtual DOM help to increase productivity and efficiency when building user interfaces. Developers can reuse components, reduce boilerplate code, and minimize the amount of manual DOM manipulation required.
+
+- Improved performance: React's virtual DOM and efficient rendering algorithms help to improve the performance of web applications by reducing the number of DOM updates required. This results in faster rendering times and better overall performance.
+
+- Large and active community: React has a large and active community of developers, which means that there are many resources and tools available for developers to use. This includes libraries, frameworks, and plugins, as well as a wealth of documentation and tutorials.
+
+- Easier to learn: React's syntax and structure are relatively easy to learn and understand, especially for developers who are familiar with JavaScript. This means that developers can start building applications quickly without having to learn a completely new programming language or syntax.
+
+- Cross-platform compatibility: React can be used to build user interfaces for a variety of platforms, including web, mobile, and desktop applications. This makes it a versatile and flexible tool that can be used in a wide range of development projects.
+
+### What is the name of the Software Engineer that created React? Also, which company owns React?
+
+React was created by Jordan Walke, a software engineer at Facebook. React is an open-source library, and while it was created by Facebook, it is not owned by any particular company. Instead, it is maintained and developed by a community of developers and companies, including Facebook.
+
+### What are the notable differences between HTML & JSX? Give at least 3 of them
+
+- Syntax and Structure: HTML and JSX have different syntax and structure. HTML is a markup language that uses tags to define elements, while JSX uses a syntax that allows developers to write HTML-like code within their JavaScript code. For example, in HTML, an element might be defined like this: <div class="example">Content goes here</div>. In JSX, the same element might be defined like this: <div className="example">Content goes here</div>.
+
+- Attributes and Properties: HTML and JSX use different attribute and property names for some elements. For example, in HTML, the class attribute is used to specify a CSS class for an element, while in JSX, the className property is used for the same purpose. Similarly, the for attribute in HTML is used to associate a label with a form control, while in JSX, the htmlFor property is used for the same purpose.
+
+- Data Binding: JSX provides more advanced data binding capabilities than HTML. With JSX, developers can use JavaScript expressions and variables to dynamically generate content and properties, which can be updated in real time. For example, in JSX, a variable might be used to dynamically generate the content of an element like this: <div>{myVariable}</div>. In HTML, this would require additional JavaScript code to achieve the same result.
+
+### Why can’t browsers read JSX?
+
+Browsers can't read JSX because it is not valid JavaScript code that can be interpreted directly by the browser. Instead, JSX is a syntax extension that allows developers to write HTML-like code within their JavaScript code.
+
+To be understood by the browser, JSX needs to be transpiled (or compiled) into standard JavaScript code. This process converts the JSX syntax into valid JavaScript code that the browser can understand.
+
+React includes a tool called "Babel" that can be used to transpile JSX code into standard JavaScript code. Babel can be configured to work with various build tools, such as webpack or gulp, to automate the transpiling process and generate the necessary JavaScript files that can be loaded by the browser.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
