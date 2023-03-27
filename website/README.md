@@ -30,11 +30,11 @@ React was created by Jordan Walke, a software engineer at Facebook. React is an 
 
 ### What are the notable differences between HTML & JSX? Give at least 3 of them
 
-- Syntax and Structure: HTML and JSX have different syntax and structure. HTML is a markup language that uses tags to define elements, while JSX uses a syntax that allows developers to write HTML-like code within their JavaScript code. For example, in HTML, an element might be defined like this: <div class="example">Content goes here</div>. In JSX, the same element might be defined like this: <div className="example">Content goes here</div>.
+- Syntax and Structure: HTML and JSX have different syntax and structure. HTML is a markup language that uses tags to define elements, while JSX uses a syntax that allows developers to write HTML-like code within their JavaScript code.
 
 - Attributes and Properties: HTML and JSX use different attribute and property names for some elements. For example, in HTML, the class attribute is used to specify a CSS class for an element, while in JSX, the className property is used for the same purpose. Similarly, the for attribute in HTML is used to associate a label with a form control, while in JSX, the htmlFor property is used for the same purpose.
 
-- Data Binding: JSX provides more advanced data binding capabilities than HTML. With JSX, developers can use JavaScript expressions and variables to dynamically generate content and properties, which can be updated in real time. For example, in JSX, a variable might be used to dynamically generate the content of an element like this: <div>{myVariable}</div>. In HTML, this would require additional JavaScript code to achieve the same result.
+- Data Binding: JSX provides more advanced data binding capabilities than HTML. With JSX, developers can use JavaScript expressions and variables to dynamically generate content and properties, which can be updated in real time.
 
 ### Why can’t browsers read JSX?
 
